@@ -1,0 +1,39 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.addContact{
+    text-align: center;
+}
+
+.contact-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.item{
+    padding-top: 1rem!important;
+    padding-bottom: 1rem!important;
+}
+
+.ui.avatar.image{
+    margin-right: .5rem!important;
+    width: 3rem!important;
+    height: 3rem!important;
+}
+
+.innercontent{
+    display: flex;
+    flex-direction: row;
+}
+.icon{
+    font-size: 1.5rem!important;
+}
+
+.iconStyles{
+    display: flex;
+    justify-content: space-between;
+}
