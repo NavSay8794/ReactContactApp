@@ -1,0 +1,18 @@
+{
+  "name": "yes",
+  "version": "1.0.0",
+  "description": "This is the server part of contact app",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server -p 3006 -w db.json"
+  },
+  "keywords": [
+    "Contact",
+    "App"
+  ],
+  "author": "Naveed Sayyed",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.16.3"
+  }
+}

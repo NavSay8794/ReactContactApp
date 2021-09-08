@@ -1,0 +1,16 @@
+{
+  "contacts": [
+    {
+      "id": "127bcf55-c8c4-4ad2-b297-0de161e77c19",
+      "name": "Naveed Sayyed",
+      "email": "bikidiki108@gmail.com",
+      "mobileNumber": "9018273645"
+    },
+    {
+      "id": "d9f1dd58-da85-47b0-afd5-07d697fc45af",
+      "name": "Grishma Zaveri",
+      "email": "gzaveri00@gmail.com",
+      "mobileNumber": "9029036326"
+    }
+  ]
+}
