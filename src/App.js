@@ -37,7 +37,7 @@ function App() {
 
   const updateContactHandler = async(contact)=>{
     const response = await api.put(`/contacts/${contact.id}`, contact)
-    const {id , name, email, mobileNumber} = response.data
+    const {id} = response.data
     setContacts(contacts.map((contact)=>{
        return contact.id === id? {...response.data}: contact
     }))
@@ -62,7 +62,6 @@ function App() {
     return response.data
   }
 
-  const LOCALSTORAGEKEY = 'contacts'
 
   // this is component did mount.
   //here we use tehh useEffect hook with an empty array as second param 
